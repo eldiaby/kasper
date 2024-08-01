@@ -1,0 +1,42 @@
+/* start of global sittings */
+:root {
+  --main-them-color: #19c8fa;
+  --transparent-color: rgba(15, 116, 143, 0.7);
+  --transitions-duration: 1s;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+/* 
+*::selection {
+
+} */
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--main-font-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+/* End of global sittings */
+/* ====================================================================================== */
+/* start of global component */
+
+
+/* End of global component */
+
