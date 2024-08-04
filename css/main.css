@@ -1,9 +1,5 @@
 /* start of  header */
 
-body {
-  background-color: #000;
-}
-
 .header {
   position: absolute;
   left: 0;
@@ -81,6 +77,7 @@ body {
   transform: translateY(-50%);
   right: 0;
 }
+
 /* End of  header */
 /* ========================================================================================== */
 /* Start of  landign section */
@@ -153,11 +150,11 @@ body {
 
 .bullets {
   position: absolute;
-  right: 50%;
+  left: 50%;
   bottom: 2rem;
-  transform: translateX(50%);
+  transform: translateX(-50%);
   display: flex;
-  gap: 1.2rem; 
+  gap: 1.2rem;
 }
 
 .bullets li {
@@ -173,4 +170,122 @@ body {
 }
 
 /* End of  landign section */
+/* ========================================================================================== */
+/* Start of  services section */
+
+.section-services {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+
+.services-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 4rem;
+  grid-row-gap: 6rem;
+}
+
+.service-box {
+  display: flex;
+}
+
+.service-box i {
+  font-size: 4.2rem;
+  /* color: var(--main-them-color); */
+  margin-right: 4.8rem;
+}
+
+/* .service-box-text {
+  
+} */
+
+.service-box-text h3 {
+  margin-top: 0;
+  margin-bottom: 3.2rem;
+  color: var(--main-them-color);
+  font-size: 1.8rem;
+}
+.service-box-text p {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #777;
+}
+
+/* End of  services section */
+/* ========================================================================================== */
+/* Start of  design section */
+
+.section-design {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  height: 85vh;
+  position: relative;
+  background-image: url(../images/design-features.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.section-design::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.design-image,
+.design-text {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+}
+
+.design-image {
+  text-align: center;
+}
+
+.design-image img {
+  text-align: center;
+  position: relative;
+  bottom: -10rem;
+}
+.design-text {
+  color: #fff;
+  padding: 5rem;
+  background-color: var(--transparent-color);
+}
+
+.design-text h3 {
+  font-size: 3.2rem;
+  margin-bottom: 3.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.design-text ul li {
+  padding: 1.5rem 0;
+  font-size: 2.4rem;
+}
+
+
+.design-text ul li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f108";
+  font-weight: 900;
+  margin-right: 2rem;
+}
+/* .design-text ul li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f108";
+  font-weight: 900;
+  margin-right: 20px;
+  position: relative;
+  top: 1px;
+} */
+
+/* End of  design section */
 /* ========================================================================================== */
