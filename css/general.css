@@ -50,6 +50,7 @@ ul {
   position: relative;
   text-transform: uppercase;
 }
+
 .heading-primary::before {
   content: "";
   height: 0.2rem;
@@ -60,6 +61,7 @@ ul {
   right: 50%;
   transform: translateX(50%);
 }
+
 .heading-primary::after {
   content: "";
   position: absolute;
@@ -104,6 +106,23 @@ ul {
   grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
 }
 
+
+/* Overlay */
+
+.overlay {
+  position: relative;
+}
+
+.overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
 
 /* End of global component */
 
