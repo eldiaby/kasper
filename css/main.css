@@ -445,7 +445,7 @@
 /* End of  vidoe section */
 /* ========================================================================================== */
 /* Start of  about section */
-  
+
 .section-about {
   padding-top: var(--section-padding);
   overflow: hidden;
@@ -459,55 +459,120 @@
   max-width: 100%;
 }
 
-  /* End of  about section */
-  /* ========================================================================================== */
-  /* Start of  statistics section */
+/* End of  about section */
+/* ========================================================================================== */
+/* Start of  statistics section */
 
-  .section-statistics {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
-    text-align: center;
-    height: 75vh;
-    background-image: url(../images/stats.png);]
-    background-size: cover;
-  }
+.section-statistics {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  text-align: center;
+  height: 75vh;
+  background-image: url(../images/stats.png);
+  ]background-size: cover;
+}
 
-  .section-statistics .container {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
-    color: #fff;
-    width: 80%;
-    background-color: var(--transparent-color);
-  }
+.section-statistics .container {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: #fff;
+  width: 80%;
+  background-color: var(--transparent-color);
+}
 
-  .stat-box {
-    padding: 3.2rem;
-  }
+.stat-box {
+  padding: 3.2rem;
+}
 
-  .stat-box i {
-    font-size: 1.8rem;
-    background-color: white;
-    padding: 1.4rem;
-    border-radius: 50%;
-    color: #fff;
-    background-color: #000;
-    margin-bottom: 4.8rem;
-  }
+.stat-box i {
+  font-size: 1.8rem;
+  background-color: white;
+  padding: 1.4rem;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #000;
+  margin-bottom: 4.8rem;
+}
 
-  .stat-number {
-    font-size: 4.8rem;
-    font-weight: 700;
-    margin-bottom: 2.4rem;
-  }
+.stat-number {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
 
-  .stat-box p {
-    font-size: 1.4rem;
-  }
+.stat-box p {
+  font-size: 1.4rem;
+}
 
-  /* End of  statistics section */
-  /* ========================================================================================== */
-  /* Start of       section */
-  /* End of        section */
+/* End of  statistics section */
+/* ========================================================================================== */
+/* Start of  skills section */
+
+.section-skills {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+
+.section-skills .container {
+  gap: 4.8rem;
+  align-items: start;
+}
+
+.section-skills .container > div > h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 4rem 0;
+}
+.section-skills .container > div > p {
+  text-align: center;
+  margin-bottom: 4.8rem;
+  color: #777;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.testimonials-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.testimonials > div {
+  margin-bottom: 5rem;
+}
+
+.testimonials-content img {
+  width: 8.4rem;
+  border-radius: 50%;
+  margin-right: 3.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.testimonial-text p {
+  color: #777;
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+.skill-progress h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+meter {
+  width: 80%;
+  height: 1.5rem;
+}
+
+/* End of skills section */
