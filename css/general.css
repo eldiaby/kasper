@@ -3,9 +3,8 @@
   --main-them-color: #19c8fa;
   --transparent-color: rgba(15, 116, 143, 0.7);
   --transitions-duration: 1s;
-  --section-padding: 10rem
+  --section-padding: 10rem;
 }
-
 
 * {
   box-sizing: border-box;
@@ -106,6 +105,9 @@ ul {
   grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
 }
 
+.grid--col-4--res {
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+}
 
 /* Overlay */
 
