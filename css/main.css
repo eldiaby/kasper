@@ -597,6 +597,10 @@ meter {
   display: block;
   margin-bottom: 5.6rem;
 }
+
+.section-quote blockquote p {
+  font-size: 1.8rem;
+}
 /* End of  quote section */
 /* ========================================================================================== */
 /* Start of  pricing section */
