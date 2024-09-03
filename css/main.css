@@ -666,6 +666,7 @@ meter {
 }
 .pricing-plan-footer a {
   text-decoration: none;
+  color: #000;
   font-size: 1.8rem;
   padding: 1.2rem 2.4rem;
   border: 0.1rem solid var(--main-them-color);
@@ -685,6 +686,7 @@ meter {
   text-align: center;
 }
 .contact-us-link {
+  color: #000;
   text-decoration: none;
   font-size: 1.8rem;
   padding: 1.2rem 2.4rem;
@@ -701,6 +703,83 @@ meter {
 }
 
 /* End of  pricing section */
+/* ========================================================================================== */
+/* Start of  subscribe section */
+
+.section-subscribe {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-image: url("../images/subscribe.jpg");
+  background-size: cover;
+}
+
+.section-subscribe.overlay::after {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section-subscribe .container {
+  position: relative;
+  z-index: 2;
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.section-subscribe form {
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  /* width: 50.6rem; */
+  width: 100%;
+  height: 7.2rem;
+  margin: 0 auto 5.2rem auto;
+}
+
+.section-subscribe form i {
+  position: absolute;
+  color: #fff;
+  font-size: 2.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1.8rem;
+  color: var(--main-them-color);
+}
+
+.section-subscribe form input[type="email"] {
+  background: none;
+  padding: 2.4rem 2.4rem 2.4rem 4.8rem;
+  border: solid 0.1rem #fff;
+  border-right: none;
+  width: 80%;
+  outline: none;
+  caret-color: var(--main-them-color);
+}
+
+.section-subscribe form input[type="email"]::placeholder {
+  color: #fff;
+  letter-spacing: 0.15rem;
+  font-size: 1.8rem;
+}
+
+.section-subscribe form button {
+  border: #fff solid 0.1rem;
+  border-left: none;
+  cursor: pointer;
+  width: 20%;
+  font-size: 1.8rem;
+  background-color: var(--main-them-color);
+  color: #fff;
+  letter-spacing: 0.15rem;
+  /* text-transform: capitalize; */
+}
+
+
+.section-subscribe p {
+  color: #fff;
+  font-size: 2.4rem;
+  line-height: 1.8;
+  letter-spacing: 0.2rem ;
+text-align: center;}
+/* End of  subscribe section */
 /* ========================================================================================== */
 /* Start of  quote section */
 
