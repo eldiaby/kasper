@@ -752,6 +752,8 @@ meter {
   width: 80%;
   outline: none;
   caret-color: var(--main-them-color);
+  font-size: 1.8rem;
+  color: #fff;
 }
 
 .section-subscribe form input[type="email"]::placeholder {
@@ -772,15 +774,135 @@ meter {
   /* text-transform: capitalize; */
 }
 
-
 .section-subscribe p {
   color: #fff;
   font-size: 2.4rem;
   line-height: 1.8;
-  letter-spacing: 0.2rem ;
-text-align: center;}
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
 /* End of  subscribe section */
 /* ========================================================================================== */
-/* Start of  quote section */
+/* Start of  contact section */
 
-/* End of  quote section */
+.section-contact {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-content form {
+  flex-basis: 70%;
+}
+
+.contact-form-input {
+  padding: 2.4rem;
+  display: block;
+  width: 100%;
+  margin-bottom: 2.4rem;
+  border: solid #ccc 0.1rem;
+  outline: none;
+  caret-color: var(--main-them-color);
+  font-size: 2.4rem;
+}
+
+.contact-form-input::placeholder {
+  font-size: 1.8rem;
+  /* color: var(--main-them-color); */
+}
+
+.contact-content form textarea {
+  height: 20.4rem;
+}
+
+.contact-content form input[type="submit"] {
+  padding: 1.8rem 3.6rem;
+  background-color: var(--main-them-color);
+  color: #fff;
+  font-size: 2.4rem;
+  border: none;
+  margin-left: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.contant-info {
+  flex-basis: 25%;
+}
+
+.contant-info div:first-child h4 {
+  margin-top: 0;
+}
+.contant-info div h4 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.contact-phons {
+  margin-bottom: 12rem;
+}
+
+.contant-info .phone {
+  display: block;
+  color: #777;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.contact-address address {
+  color: #777;
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+/* End of  contact section */
+/* ========================================================================================== */
+/* Start of  footer */
+.footer {
+  padding-top: calc(var(--section-padding) / 2);
+  padding-bottom: calc(var(--section-padding) / 2);
+  background-image: url(../images/subscribe.jpg);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.footer .container {
+  position: relative;
+  z-index: 2;
+}
+
+.footer img {
+  margin-bottom: 2.4rem;
+}
+
+.footer p:not(.copyright) {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.footer-social-icons i {
+  font-size: 1.8rem;
+  margin: 1.2rem 2.4rem;
+  color: var(--main-them-color);
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  letter-spacing: 0.25rem;
+}
+
+.copyright i {
+  color: var(--main-them-color);
+}
+
+.copyright span {
+  color: var(--main-them-color);
+  font-weight: 900;
+}
+
+/* End of  footer */

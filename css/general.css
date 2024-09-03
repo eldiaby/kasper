@@ -126,6 +126,11 @@ ul {
   z-index: 1;
 }
 
+/* .overlay .container {
+  position: relative;
+  z-index: 2;
+} */
+
 /* End of global component */
 
 /* ====================================================================================== */
